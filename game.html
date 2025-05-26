@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Snake Game</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    canvas {
+      background: black;
+      border: 2px solid lime;
+    }
+
+    #startMsg {
+      margin-top: 20px;
+      font-size: 18px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas" width="400" height="400"></canvas>
+  <div id="startMsg" style="
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: gray;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;">
+  Press any key to start
+</div>
+
+  
+
+  <!-- Link to your JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
